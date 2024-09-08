@@ -1,3 +1,20 @@
+/* Подключаю шрифты */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,500&display=swap');
+
 body {
-    background-color: aquamarine;
+    font-family: "Roboto", sans-serif;
 }
+
+/* Fonts
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+*/
