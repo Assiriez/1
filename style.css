@@ -34,7 +34,13 @@ body {
 
 .btn {
   font-weight: 500;
-font-size: 16px;
+  font-size: 16px;
+
+  width: 165px;
+  height: 49px;
+
+  background: #F6762C;
+  border-radius: 5px;
 }
 
 /* Шапка */
