@@ -33,14 +33,25 @@ body {
 */
 
 .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   font-weight: 500;
   font-size: 16px;
+  text-transform: uppercase;
 
   width: 165px;
   height: 49px;
 
   background: #F6762C;
   border-radius: 5px;
+
+  transition: opacity 0.3s;
+}
+
+.btn:hover {
+  opacity: 0.8;
 }
 
 /* Шапка */
@@ -67,10 +78,16 @@ align-items: center;
 .header-nav a {
   font-size: 14px;
   opacity: 0,7;
+  transition: opacity 0.3s;
 }
 
 .header-nav a.active {
-  font-size: 14px;
-  opacity: 1;
+   opacity: 1;
 }
+
+.header-nav a:hover {
+  opacity: 0,9;
+}
+
+
 
